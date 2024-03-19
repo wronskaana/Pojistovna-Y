@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Evidence pojištění</title>
+</head>
+<body class="pageBackground">
+<!-- menu -->
+    <div>
+        <div class="p-3 mb-2 text-white">
+            <header class="container">
+                <nav class="navigace">
+                    <ul>
+                        <li><a href="#">Pojišťovna Y</a></li>
+                        <li><a href="#">Pojištěnci</a></li>
+                        <li><a href="#">O aplikaci</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+<!-- formular -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 formBackground">
+            <section class="container main-content">
+                <form id="form-row">
+                    <h3 class="formHeader">Nový pojištěnec</h3>
+                    <div>
+                        <label class="form-label" >Jméno</label>
+                        <input type="text" id="firstName" class="form-control"> <br>
+                        <label class="form-label">Příjmení</label>
+                        <input type="text" id="secondName" class="form-control"> <br>
+                        <label class="form-label">Věk</label>
+                        <input type="number" id="age" class="form-control" min="0" max="120"> <br>
+                        <label class="form-label">Telefon</label>
+                        <input type="tel" id="phone" class="form-control" pattern="[0-9]{9}"> <br>
+                    </div>
+                    <img src="pictures/285648_group_user_icon (2).png" alt="avatar" width="200px" class="avatar">
+                    <button type="submit" id="send" class="btn btn-success">Uložit</button> 
+                </form>
+            </section>
+        </div>
+    <div class="col-md-12 formBackground" >
+<!-- vysledky formulare --> 
+        <section class="output" >
+            <h3 class="tableHeader">Pojištěnci</h3>
+                <table id="form-results" class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Jméno</th>
+                            <th scope="col">Příjmení</th>
+                            <th scope="col">Věk</th>
+                            <th scope="col">Telefon</th>
+                        </tr>
+                    </thead>
+                    <tbody>             
+                    </tbody>
+                </table>
+            <button id="smazat" class="btn btn-danger">Smazat vše</button>
+        </section>
+    </div>
+</div>
+    <footer class="p-3 mb-2 text-white">
+    </footer>
+    <script src="pojistovna.js"></script>
+    <script src="pojistenec.js"></script>
+    <script src="obsluha.js"></script>
+</body>
+</html>

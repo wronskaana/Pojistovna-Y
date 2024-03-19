@@ -1,0 +1,73 @@
+/*pozadi*/
+.pageBackground {
+    background-color: #83DE99;
+}
+
+/*hlavicka*/
+.navigace ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-size: large;
+}
+
+.navigace ul li a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #28a745;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/*formular*/
+.formBackground,
+.output {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+form div {
+    display: inline-block;
+    vertical-align: top; 
+}
+
+.form-control,
+.btn,
+.form-label {
+    margin-left: 50px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#form-row button {
+    display: block; 
+    width: 20%; 
+    margin-bottom: 20px;
+}
+
+label,
+input {
+    display: block; 
+}
+
+/*obrazek*/
+.avatar {
+    width: 340px;
+    margin: 10px 0px 0px 350px; 
+}
+
+/*tabulka*/
+.output {
+    margin: 10px;
+}
+
+/*nadpisy*/
+.formHeader,
+.tableHeader{
+    margin: 20px 0px 50px 50px;
+    color: #28a745;
+}

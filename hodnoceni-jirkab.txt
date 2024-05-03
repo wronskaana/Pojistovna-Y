@@ -1,0 +1,13 @@
+Ceníme práci na projektu! 🏆 Prohlédli jsme si kód a máme k němu následující poznámky:
+
+1. Pojmenování identifikátorů - u metod se hodí, pokud je z názvu poznat, co dělají. V třídě Pojistovna je metoda vytvorPojistence(), ale žádného nevytváří, místo toho přiřazuje tlačítku funkci. Jestli mezi identifikátory řadíme i názvy obrázků, tak bych měl ještě jednu výhradu :-P
+2. Dodržení principů SRP a SoC - N/A
+3. Vhodný výběr datových typů - N/A
+4. Formátování kódu - vcelku ok
+5. Duplicitní kód a nekonečné cykly - hlavička tabulky pojištěnců by měla být v třídě nejvýše jednou, nebo se jednou na začátku uložit do finálního atributu a pro příště použít.
+6. Validace vstupních dat - jen v prohlížeči, na což se úplně nedá spolehnout, neprázdnost jména či příjmení zřejmě nevadí.
+7. Logičnost a složitost - zdá se, že mazání funguje jen "na oko", smaže obsah tabulky, ale nechá pojištěnce, takže při vložení dalšího jsou zase všichni zpátky. Na stránce je navigace, ale zřejmě nic nedělá.
+8. Komentáře - nejsou
+9. Celkové hodnocení - základ jednoduché aplikace s několika drobnými problémy, které je snadné vyřešit. Hodilo by se nad projektem dále pracovat a přidávat novou funkcionalitu, na které se leccos lze naučit - filtrování/vyhledávání, řazení podle jména, příjmení, věku atd., uložení dat např. do localStorage apod.
+
+Doporučujeme případné výtky v kódu opravit, abyste jej mohli pak prezentovat budoucímu zaměstnavateli v co nejlepší kvalitě. Pokud byste potřebovali s čímkoli pomoci, naplánujte si s námi konzultaci, rádi vám poradíme!
